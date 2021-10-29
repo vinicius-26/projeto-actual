@@ -1,0 +1,50 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.gradient{
+  background: rgb(25,28,37);
+  background: linear-gradient(180deg, rgba(25,28,37,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.gradientInvert{
+  background: rgb(25,28,37);
+  background: linear-gradient(0deg, rgba(25,28,37,1) 0%, rgba(0,0,0,1) 100%); 
+}
+
+.videoContent{
+  background-color: black;
+}
+
+.videoContent p{
+  width: 50%;
+  margin-left: 3rem;
+  font-size: 60%;
+  text-align: justify;
+  color: var(--text);
+
+}
+
+.videoContent span{
+  width: 50%;
+  margin-top: 0.2rem;
+  font-size: 80%;
+  text-align: justify;
+  color: var(--gray-line);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white{
+  background: var(--background-white);
+}

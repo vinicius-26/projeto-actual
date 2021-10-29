@@ -1,0 +1,111 @@
+.container{
+  background: var(--background);
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container span{
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--background-primary);
+  width: 11rem;
+  margin-bottom: 1.6rem;
+  margin-left: 2rem;
+}
+
+.container span:first-child{
+  margin-left: 0;
+}
+
+.container main{
+  text-align: left;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+/* Experiência ---------------------------------------------------------------------------------------------------- */ 
+.sobre{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre strong{
+  font-size: 65%;
+}
+
+.sobre p{
+  font-size: 50%;
+  text-align: justify;
+  margin-top: 0.5rem;
+}
+
+/* Redes sociais -------------------------------------------------------------------------------------------------- */ 
+
+.redesSociais{
+  margin-left: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+.redesSociais i{
+  width: 2rem;
+}
+
+.icons{ 
+  width: 2rem;
+}
+
+.text{
+  margin-left: 1rem;
+}
+
+.text p{
+  margin-top: 1rem;
+}
+
+.text a{
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+/* Produtos ------------------------------------------------------------------------------------------------------- */ 
+
+
+/* Contatos ------------------------------------------------------------------------------------------------------- */ 
+
+.contatos p{
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Copyright ------------------------------------------------------------------------------------------------------- */ 
+
+.copyright{
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  background: var(--background-dark);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p:first-child{
+  font-size: 1rem;
+  color: var(--gray-line);
+}
+
+.copyright p:last-child{
+  color: var(--text);
+  font-size: 1rem;
+  margin-left: 1rem;
+}

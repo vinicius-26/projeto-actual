@@ -1,0 +1,88 @@
+.container{
+  width: 100vw;
+  background: var(--background);
+  display: flex;
+  align-items: center;
+}
+
+.navbar{
+  width: 88%;
+  background: var(--background);
+  color: var(--gray-line);
+  padding: 0.8rem;
+  display: flex;
+  font-size: 1rem;
+  justify-content: lefts;
+  /* box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.2); */
+  position: relative;
+  align-items: center;
+}
+
+.navbar:last-child{
+  margin-left: auto;
+}
+
+.navbar h1{
+  color: var(--text);
+  padding-right: 4rem;
+  padding-left: 3.5rem;
+}
+
+.navbar a{
+  margin-right: 2.6rem;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 85%;
+}
+
+.navbar a:hover{
+  color: var(--background-white);
+}
+
+.container button{
+  width: 5%;
+  height: 8px;
+  background: var(--background-primary);
+  color: var(--text);
+  border: 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-left: 3rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar button:hover{
+  background: var(--background-button-dark);
+}
+
+@media(max-width: 1000px){
+  .navbar{
+      font-size: 1rem;
+  }
+}
+
+@media(max-width: 1000px){
+  .navbar{
+      font-size: 1rem;
+  }
+}
+
+@media(max-width: 600px){
+  .navbar{
+      font-size: 0.8rem;
+  }
+}
+
+@media(max-width: 600px){
+  .navbar{
+      font-size: 0.6rem;
+  }
+}
