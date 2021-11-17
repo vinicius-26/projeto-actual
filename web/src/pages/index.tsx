@@ -26,7 +26,7 @@ const Home: React.FC = () => {
 
         {/* Serviços */}
 
-        <div className={styles.row}>
+        <div id="servicos" className={styles.row}>
           <Card 
             title="Redes Industriais"
             text="Implante soluções de redes industriais seguras, confiáveis e robustas"
@@ -96,10 +96,10 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className={styles.linha}>
+        <div id="produtos" className={styles.linha}>
         </div>
 
-        <div className={styles.dev}>
+        <div  className={styles.dev}>
           <h3>Desenvolvimento de Software e Aplicativos</h3>
           <div className={styles.imgDev}>
             <img src="img/ativo_7.png" alt="" />
@@ -144,8 +144,21 @@ const Home: React.FC = () => {
           <img src="img/ativo_10.png" alt="" />
         </div>
 
-        
+        <div className={styles.txtRemoto}>
+          <img src="img/diamond.png" alt="" />
+          <h3>ACTUAL CONECTED - SOLUÇÃO REMOTO</h3>
+          <p>Seu armazém, indústria ou empresa conectada, pode trazer ainda mais eficiência para sua operação através de nossas tecnologias de automação.</p>
+          <p>Uma solução composta por serviços proativos para tornar as máquinas cada vez mais produtivas, disponíveis e com o menor custo de operação.</p>
+          <p>A conexão proativa de pessoas, tecnologias e máquinas</p>
+        </div>
+      </div>
 
+      <div className={styles.clientes}>
+        <h3>Nossos Clientes</h3>
+      </div>
+
+      <div className={styles.painel}>
+        <img src="img/ativo_19.png" alt="" />
       </div>
 
       <div className={styles.footer}>

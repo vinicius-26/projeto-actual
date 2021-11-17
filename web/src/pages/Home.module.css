@@ -169,7 +169,7 @@
   text-align: justify;
   color: #747780;
   margin-top: 0.6rem;
-  width: 50%;
+  width: 60%;
 }
 
 .imgInov img{
@@ -183,7 +183,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: var(--background);
+  background: linear-gradient(0deg, var(--background) 50%, var(--background-white) 50%);
 
 }
 
@@ -196,6 +196,46 @@
 .empresa img{
   width: 80%;
 }
+
+.txtRemoto{
+  padding-top: 2rem;
+  justify-content: left;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: var(--background);
+  color: white;
+  align-items: center;
+  padding-left: 10rem;
+  padding-bottom: 2rem;
+}
+
+.txtRemoto p{
+  font-size: 1rem;
+  text-align: justify;
+  color: #d0d0d0;
+}
+
+.txtRemoto img{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.clientes{
+  padding: 2rem;
+
+}
+
+.clientes h3{
+  color: #224D88;
+}
+
+.painel{
+  width: 100%;
+}
+
+
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0;}

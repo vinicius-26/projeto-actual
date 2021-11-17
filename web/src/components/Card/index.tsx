@@ -10,7 +10,7 @@ interface CardProps{
 }
 
 const Card: React.FC<CardProps> = (props) => {
-
+  
     return(
     <div className={styles.container}>
       <div className={styles.img}>

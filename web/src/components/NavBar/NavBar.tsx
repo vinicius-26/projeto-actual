@@ -12,10 +12,10 @@ export function NavBar(){
 
           <h1>ACTUAL</h1>
 
-          <a href="">Home</a>
+          <a href="/">Home</a>
           <a href="">Projetos</a>
-          <a href="">Serviços</a>
-          <a href="">Produtos</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#produtos">Produtos</a>
           <a href="">Clientes</a>
           <a href="">Contatos</a>
           <a href="#about">Sobre</a>

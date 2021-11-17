@@ -17,7 +17,7 @@
 
 .container:hover {
   transform: translateY(-5px);
-  cursor: pointer;
+  cursor: default;
 }
 
 .title p{
@@ -35,4 +35,15 @@
 .container img{
   width: 6rem;
   margin-bottom: 1rem;
+}
+
+@keyframes fade-in {
+  0% { 
+    opacity: 0;
+    transform: translateY(50%);
+}
+100% { 
+  opacity: 1;
+  transform: translateY(0);
+}
 }

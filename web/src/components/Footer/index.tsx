@@ -12,46 +12,31 @@ const Footer: React.FC = () => {
     return(
     <div className={styles.container}>
       <main>
-          <span>EXPERIÊNCIA</span>
+        <div className={styles.contatos}> 
+          <div className={styles.divI}>
+            <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            <i className="fa fa-phone fa-2x" aria-hidden="true"></i>
+          </div>
+          
+          <div className={styles.divTxt}>
+            <p>520, Rachid Elias Sobrinho</p>
+            <strong>Esp. Sto. do Pinhal, SP</strong>
+            
+            <p>actual@gmail.com</p>
 
-          <span>REDES SOCIAIS</span>
+            <p>(19) 3661 4941</p>
+          </div>
 
-          <span>PRODUTOS</span>
 
-          <span>CONTATOS</span>
+           
+            
+            
+            {/* <a href="https://www.facebook.com/actual.montagem.automacao" target="_blank"><p>Actual Soluções</p></a>
+            <a href="https://www.instagram.com/actual.montagem.automacao/" target="_blank"><p>@actual.montagem.automacao</p></a> */}
+        </div>
 
         <div className={styles.sobre}>
-          
-          <strong>Actual</strong>
-
-          <p>Com mais de 10 anos de reconhecimento no mercado, somos especializados na
-          distribuição de produtos de automação industrial, instrumentação, materiais elétricos e montagem de painéis. Contamos com uma equipe comprometida com excelência e qualidade. Conte onosco, você encontra a solução e o suporte necessário para
-          dar o próximo passo na sua indústria.</p>
-        </div>
-
-        <div className={styles.redesSociais}>
-          
-            
-          <div className={styles.icons}>
-            <i className="fa fa-facebook-square" aria-hidden="true">  </i>
-            <i className="fa fa-instagram" aria-hidden="true"></i>
-          </div>
-            
-          <div className={styles.text}>
-            <a href="https://www.facebook.com/actual.montagem.automacao" target="_blank"><p>Actual Soluções</p></a>
-            <a href="https://www.instagram.com/actual.montagem.automacao/" target="_blank"><p>@actual.montagem.automacao</p></a>
-          </div>
-
-        </div>
-
-        <div className={styles.produtos}>
-          
-          <p>Painéis</p>
-          <p>Softwares</p>
-        </div>
-
-        <div className={styles.contatos}>
-          
           <i className="fa fa-home" aria-hidden="true"></i>
           <p>Fabiano</p>
           <p>Reginaldo</p>
