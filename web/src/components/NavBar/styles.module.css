@@ -1,21 +1,27 @@
 .container{
-  width: 100vw;
-  background: var(--background);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 100vw;
+  height: 80px;
+
+  background: var(--background-white);
+  padding-left: 2.6rem;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 .navbar{
-  width: 88%;
-  background: var(--background);
-  color: var(--gray-line);
+  width: 80%;
   padding: 0.8rem;
   display: flex;
   font-size: 1rem;
-  justify-content: lefts;
-  /* box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.2); */
-  position: relative;
+  justify-content: left;
   align-items: center;
+
 }
 
 .navbar:last-child{
@@ -23,12 +29,17 @@
 }
 
 .navbar h1{
-  color: var(--text);
+  color: #4d4d4dff;
   padding-right: 4rem;
-  padding-left: 3.5rem;
+  padding-left: 0.4rem;
+}
+
+.logo{
+  padding-left: 1rem;
 }
 
 .navbar a{
+  color: rgb(121, 121, 121);
   margin-right: 2.6rem;
   text-decoration: none;
   transition: 0.2s;
@@ -36,7 +47,7 @@
 }
 
 .navbar a:hover{
-  color: var(--background-white);
+  color: var(--background-dark);
 }
 
 .container button{

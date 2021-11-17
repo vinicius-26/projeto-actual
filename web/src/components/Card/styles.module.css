@@ -12,6 +12,7 @@
   text-align: center;
   display: block;
   flex-direction: row;
+  border-bottom: 7px solid var(--background-primary);
 }
 
 .container:hover {
@@ -32,6 +33,6 @@
 }
 
 .container img{
-  width: 5rem;
+  width: 6rem;
   margin-bottom: 1rem;
 }
