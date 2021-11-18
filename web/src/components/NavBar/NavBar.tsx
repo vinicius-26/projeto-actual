@@ -2,6 +2,10 @@ import styles from './styles.module.css'
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image'
+import format from 'date-fns/format'
+import ptBR from 'date-fns/locale/pt-BR'
+
+const dataAtual = format(new Date(), 'EEEEEE, d MMMM', {locale: ptBR})
 
 export function NavBar(){
 
@@ -14,14 +18,14 @@ export function NavBar(){
 
           <a href="/">Home</a>
           <a href="">Projetos</a>
-          <a href="#servicos">Serviços</a>
-          <a href="#produtos">Produtos</a>
+          <Link href="/#servicos"><a>Serviços</a></Link>
+          <Link href="/#produtos"><a>Produtos</a></Link>
           <a href="">Clientes</a>
-          <a href="">Contatos</a>
-          <a href="#about">Sobre</a>
+          <Link href="/Contatos"><a>Contatos</a></Link>
+          <Link href="/#about"><a>Sobre</a></Link>
 
       </div>
-      <Link href="/Login"><button>Login</button></Link>
+      <p>{dataAtual}</p>
     </div>
     )
 }

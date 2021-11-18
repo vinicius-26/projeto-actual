@@ -25,21 +25,42 @@
 }
 
 .contatos{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  flex-wrap: wrap;
-}
-
-.divI{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.contatos p{
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 1rem;
+  line-height: 1px;
+}
+
+.contatos strong{
+  font-size: 1rem;
+}
+
+.contatos span{
+  font-size: 1rem;
+  text-align: left;
+  margin-right: 1rem;
+  font-weight: bolder;
+}
+
+.contatos i{
+  margin: 1rem;
+}
+
+.sobre{
+  display: flex;
+  width: 100%;
 }
 
 .sobre p{
   font-size: 1rem;
-  text-align: left;
+  margin-left: 1rem;
 }
 
 /* Copyright ------------------------------------------------------------------------------------------------------- */ 

@@ -13,33 +13,41 @@ const Footer: React.FC = () => {
     <div className={styles.container}>
       <main>
         <div className={styles.contatos}> 
-          <div className={styles.divI}>
-            <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-            <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
-            <i className="fa fa-phone fa-2x" aria-hidden="true"></i>
-          </div>
-          
-          <div className={styles.divTxt}>
-            <p>520, Rachid Elias Sobrinho</p>
-            <strong>Esp. Sto. do Pinhal, SP</strong>
-            
-            <p>actual@gmail.com</p>
+          <table>
+            <tr>
+              <td><i className="fa fa-map-marker fa-lg" aria-hidden="true"></i></td>
+              <td><p>520, Rachid Elias Sobrinho </p>
+              <span>Esp. Sto. do Pinhal, SP</span>
+              </td>
+            </tr>
 
-            <p>(19) 3661 4941</p>
-          </div>
+            <tr>
+              <td><i className="fa fa-phone fa-lg" aria-hidden="true"></i></td>
+              <td><p>(19) 3661 4941</p></td>
+            </tr>
 
-
-           
-            
+            <tr>
+              <td><i className="fa fa-envelope fa-lg" aria-hidden="true"></i></td>
+              <td><p>actual@gmail.com</p></td>
+            </tr>
+          </table>
             
             {/* <a href="https://www.facebook.com/actual.montagem.automacao" target="_blank"><p>Actual Soluções</p></a>
             <a href="https://www.instagram.com/actual.montagem.automacao/" target="_blank"><p>@actual.montagem.automacao</p></a> */}
         </div>
 
         <div className={styles.sobre}>
-          <i className="fa fa-home" aria-hidden="true"></i>
-          <p>Fabiano</p>
-          <p>Reginaldo</p>
+          <table>
+            <tr>
+               <td><a href="https://www.facebook.com/actual.montagem.automacao"><i className="fa fa-facebook-square" aria-hidden="true"></i></a></td>    
+              <td><a href="https://www.facebook.com/actual.montagem.automacao"><p>Actual Soluções</p></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="https://www.instagram.com/actual.montagem.automacao/"><i className="fa fa-instagram" aria-hidden="true"></i></a></td>
+              <td><a href="https://www.instagram.com/actual.montagem.automacao/"><p>@actual.montagem.automacao</p></a></td>
+            </tr>
+          </table>  
         </div>
       </main>
 

@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "date-fns": "^2.25.0",
     "flat-carousel": "^0.0.1",
     "lodash": "^4.17.21",
+    "react-dom": "^17.0.2",
+    "react-input-mask": "^2.0.4",
     "throttle": "^1.0.3"
   }
 }

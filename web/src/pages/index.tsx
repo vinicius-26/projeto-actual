@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 import styles from './Home.module.css'
 import Footer from '../components/Footer';
+import { NavBar } from '../components/NavBar/NavBar';
 
 const Home: React.FC = () => {
 
   return (
-
     <div className={styles.container}>
       <div className={styles.content}>
 
@@ -22,11 +22,13 @@ const Home: React.FC = () => {
             <img src="img/ativo_3.png" alt="a" />
           </div>
         </div>
+        
       </div>
 
-        {/* Serviços */}
+        {/* Serviços */} 
 
         <div id="servicos" className={styles.row}>
+
           <Card 
             title="Redes Industriais"
             text="Implante soluções de redes industriais seguras, confiáveis e robustas"
@@ -160,11 +162,6 @@ const Home: React.FC = () => {
       <div className={styles.painel}>
         <img src="img/ativo_19.png" alt="" />
       </div>
-
-      <div className={styles.footer}>
-        <Footer/>
-      </div>
-
     </div>
   )
 }
