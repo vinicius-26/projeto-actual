@@ -20,7 +20,7 @@ export function NavBar(){
           <a href="">Projetos</a>
           <Link href="/#servicos"><a>Serviços</a></Link>
           <Link href="/#produtos"><a>Produtos</a></Link>
-          <a href="">Clientes</a>
+          <Link href="/#clientes"><a>Clientes</a></Link>
           <Link href="/Contatos"><a>Contatos</a></Link>
           <Link href="/#about"><a>Sobre</a></Link>
 

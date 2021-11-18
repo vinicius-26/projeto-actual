@@ -155,8 +155,18 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div className={styles.clientes}>
+      <div id="clientes" className={styles.clientes}>
         <h3>Nossos Clientes</h3>
+
+        <div className={styles.gridImages}>
+          <div className={styles.cliente1}>
+            <img src="img/logo.villa.jpg" alt="" />
+          </div>
+
+          <div className={styles.cliente2}>
+            <img src="img/svg/cafeRaphaelli.svg" alt="" />
+          </div>
+        </div>
       </div>
 
       <div className={styles.painel}>

@@ -226,18 +226,48 @@
 
 .clientes{
   padding: 2rem;
-
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .clientes h3{
   color: #224D88;
 }
 
+.gridImages{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.cliente1 img{
+  width: 10rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.cliente2{
+  border-radius: 1000px;
+  padding: 2rem;
+  background: rgb(216, 40, 40);
+  align-items: center;
+  justify-content: center;
+}
+
+.cliente2 img{
+  width: 10rem;
+}
+
 .painel{
   width: 100%;
 }
-
-
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0;}
