@@ -8,8 +8,8 @@ import { NavBar } from '../components/NavBar/NavBar';
 const Home: React.FC = () => {
 
   return (
-    <div className={styles.container}>
-      <div className={styles.content}>
+  <div className={styles.container}>
+    <div className={styles.content}>
 
       
       <div className={styles.fadeIn}>
@@ -153,10 +153,12 @@ const Home: React.FC = () => {
           <p>Uma solução composta por serviços proativos para tornar as máquinas cada vez mais produtivas, disponíveis e com o menor custo de operação.</p>
           <p>A conexão proativa de pessoas, tecnologias e máquinas</p>
         </div>
-      </div>
+
 
       <div id="clientes" className={styles.clientes}>
         <h3>Nossos Clientes</h3>
+
+        <div className={styles.gradient}> <br /> </div>
 
         <div className={styles.gridImages}>
           <div className={styles.cliente1}>
@@ -166,13 +168,39 @@ const Home: React.FC = () => {
           <div className={styles.cliente2}>
             <img src="img/svg/cafeRaphaelli.svg" alt="" />
           </div>
+
+          <div className={styles.cliente3}>
+            <a href="https://www.carmomaq.com.br/" target="_blank"> <img src="img/svg/logo-carmomaq-01.svg" alt="" /></a>
+          </div>
+
+          <div className={styles.cliente4}>
+            <a href="http://www.montealegre.com.br/pt/" target="_blank"><img src="img/monte-alegre.png" alt="" /></a>
+          </div>
+
+          <div className={styles.cliente5}>
+            <a href="http://www.terraadorada.com.br/" target='_blank'> <img src="img/terradorada.png" alt="" /></a>
+          </div>
+
+          <div className={styles.cliente6}>
+            <a href="https://cafesoberano.com.br/" target="_blank"><img src="img/cafe-soberano.png" alt="" /></a>
+          </div>
+
+          <div className={styles.cliente7}>
+            <a href="https://www.aumacafe.com.br/" target="_blank"><img src="img/auma-cafe.jpg" alt="" /></a>
+          </div>
+
+          <div className={styles.cliente8}>
+            <a href="http://cafeterradagente.com.br/" target="_blank"><img src="img/terra-da-gente.jpg" alt="" /></a>
+          </div>
         </div>
+        <div className={styles.gradientInvert}> <br /> </div>
       </div>
 
-      <div className={styles.painel}>
+      {/* <div className={styles.painel}>
         <img src="img/ativo_19.png" alt="" />
-      </div>
+      </div> */}
     </div>
+  </div>
   )
 }
 

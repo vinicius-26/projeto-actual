@@ -6,7 +6,7 @@ import '../styles/global.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div>
+    <div> 
       <title>Actual Soluções</title>
       <NavBar/>
       <Component {...pageProps} />
