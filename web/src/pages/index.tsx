@@ -2,7 +2,7 @@ import Card from '../components/Card'
 import Image from 'next/image' 
 
 import styles from './Home.module.css'
-import Footer from '../components/Footer';
+
 import { NavBar } from '../components/NavBar/NavBar';
 
 const Home: React.FC = () => {
@@ -98,19 +98,19 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div id="produtos" className={styles.linha}>
-        </div>
+        {/* <div id="produtos" className={styles.linha}>
+        </div> */}
 
         <div  className={styles.dev}>
           <h3>Desenvolvimento de Software e Aplicativos</h3>
-          <div className={styles.imgDev}>
+          {/* <div className={styles.imgDev}>
             <img src="img/ativo_7.png" alt="" />
-          </div>
+          </div> */}
 
           <div className={styles.block}>  
             <div className={styles.imgConnected}>
               <img src="img/wifi.png" alt="" />
-            </div>
+            </div>  
             <h2>ACTUAL CONNECTED</h2>
             <p>SOLUÇÃO REMOTO</p>
           </div>
@@ -125,21 +125,21 @@ const Home: React.FC = () => {
             infraestrutura do setor para criar soluções personalizadas que beneficiem
             nossos clientes e o mundo.</p>
 
-            <div className={styles.imgInov}>
+            {/* <div className={styles.imgInov}>
               <img src="img/svg/ativo_8.svg" alt="" />
-            </div>
+            </div> */}
 
             <h3>A DISTÂNCIA NÃO SERÁ MAIS UMA BARREIRA</h3>
             <p>No armazém, empresa ou indústria, o inesperado pode acontecer, e quando
             isso acontece, você precisa de suporte rápido. Com Actual Connected a distância não é mais uma barreira. Tenha o controle e dados de seus equipmanetos
             de onde estiver na palma de sua mão.</p>
           </div>
-
+{/* 
           <div className={styles.grid2}>
             <div className={styles.celular}>
               <img src="img/ativo_9.png" alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.empresa}>
