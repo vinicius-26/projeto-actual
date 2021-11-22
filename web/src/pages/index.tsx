@@ -12,6 +12,7 @@ import Remoto from '../components/Remoto';
 const Home: React.FC = () => {
 
   return (
+    
   <div className={styles.container}>
     <div className={styles.content}>
 
@@ -31,7 +32,7 @@ const Home: React.FC = () => {
 
         {/* Serviços */} 
 
-        <div id="servicos" className={styles.row}>
+        <div id="servicos" className={styles.cardsInicio}>
 
           <Card 
             title="Redes Industriais"
@@ -63,25 +64,22 @@ const Home: React.FC = () => {
             img= "/img/conexao-com-a-nuvem.png"
           />
         </div>
-
-        <div id="about" className={styles.about}>
+       
           <Sobre />
-        </div>
+      
 
         <div id="produtos" className={styles.linha}>
         </div>
 
-        <div className={styles.dev}>
+     
           <Desenvolvimento />
-        </div>
+        
 
-        <div className={styles.remoto}>
+   
           <Remoto/>
-        </div>
 
-        <div className={styles.clientes}>
           <Clientes />
-        </div>
+      
       
 
       <div className={styles.painel}>

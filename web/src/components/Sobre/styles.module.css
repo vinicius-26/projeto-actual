@@ -1,10 +1,14 @@
 .about{
-  display: grid;
+  display: flex;
   width: 100%;
-  grid-template-columns: 1fr 1fr;
-  background: var(--background-white);
-  /* padding: 2rem 0 0 10rem; */
-  height: 48rem;
+  justify-content: space-around;
+
+}
+
+.txt{
+
+padding-left: 3rem;
+
 }
 
 .about h2{
@@ -34,4 +38,33 @@
   padding: 3rem;
   /* margin-left: 5rem; */
   /* margin-right: 1rem; */
+}
+
+
+@media(max-width: 900px){
+
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgAbout {
+    
+    display: none;
+  }
+
+  .txt{
+
+    padding:2rem;
+    
+    }
+
+.txt h2:first-child{
+
+  display: none;
+}
+
+
+
+
 }
