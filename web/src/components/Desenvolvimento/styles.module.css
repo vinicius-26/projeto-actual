@@ -97,6 +97,18 @@
     width: 60%;
     margin-bottom: -2rem;
   }
+
+  .Inov h3{
+    font-size: 1.3rem;
+   
+  }
+  
+  .Inov p{
+    font-size: 1.1rem;
+  
+  }
+
+
 }
 
 @media(max-width: 1200px){
@@ -187,6 +199,9 @@
 
   .imgConnected img{
     width: 3rem;
+  }
+  .celular img{
+ display: none;
   }
 }
 
