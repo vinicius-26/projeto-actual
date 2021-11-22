@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <title>Actual Soluções</title>
       <NavBar/>
       <Component {...pageProps} />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

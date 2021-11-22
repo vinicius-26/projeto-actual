@@ -6,7 +6,7 @@ const Clientes: React.FC = () => {
       <div id="clientes" className={styles.clientes}>
         <h3>Nossos Clientes</h3>
 
-        <div className={styles.gradient}> <br /> </div>
+        <div className={styles.gradient}>  </div>
 
         <div className={styles.gridImages}>
           <div className={styles.cliente1}>
@@ -41,7 +41,7 @@ const Clientes: React.FC = () => {
             <a href="http://cafeterradagente.com.br/" target="_blank"><img src="img/terra-da-gente.jpg" alt="" /></a>
           </div>
         </div>
-        <div className={styles.gradientInvert}> <br /> </div>
+        <div className={styles.gradientInvert}> </div>
       </div>
     )
 }

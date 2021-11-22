@@ -12,7 +12,7 @@
 }
 
 .txtRemoto{
-  padding-top: 2rem;
+  padding: 2rem 0 2rem 2rem;
   justify-content: left;
   display: flex;
   flex-wrap: wrap;
@@ -35,4 +35,47 @@
   width: 2rem;
   height: 2rem;
   margin-right: 1rem;
+}
+
+@media(max-width: 1400px){
+  .txtRemoto img{
+    margin-left: 1rem;
+  }
+  .txtRemoto p{
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+  .txtRemoto{
+    padding-bottom: 1rem;
+  }
+}
+
+@media(max-width: 1200px){
+  .txtRemoto img{
+    margin-left: 1rem;
+  }
+  .txtRemoto p{
+    padding-left: 1rem;
+  }
+  .txtRemoto{
+    padding-bottom: 1rem;
+  }
+}
+
+@media(max-width: 850px){
+  .txtRemoto h3{
+    font-size: 1.8rem;
+  }
+}
+
+@media(max-width: 600px){
+  .txtRemoto h3{
+    font-size: 1rem;
+  }
+  .txtRemoto img{
+    margin-left: 1rem;
+  }
+  .txtRemoto p{
+    padding: 1rem;
+  }
 }

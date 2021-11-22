@@ -31,7 +31,7 @@ const Home: React.FC = () => {
 
         {/* Serviços */} 
 
-        <div id="servicos" className={styles.row}>
+        {/* <div id="servicos" className={styles.row}>
 
           <Card 
             title="Redes Industriais"
@@ -62,14 +62,14 @@ const Home: React.FC = () => {
             text="Sistemas e aplicativos sob medida, totalmente personalizado para a demanda da sua empresa."
             img= "/img/conexao-com-a-nuvem.png"
           />
-        </div>
+        </div> */}
 
-        <div id="about" className={styles.about}>
+        {/* <div id="about" className={styles.about}>
           <Sobre />
         </div>
 
         <div id="produtos" className={styles.linha}>
-        </div>
+        </div> */}
 
         <div className={styles.dev}>
           <Desenvolvimento />
@@ -79,14 +79,13 @@ const Home: React.FC = () => {
           <Remoto/>
         </div>
 
-        <div className={styles.clientes}>
+        <div id="clientes" className={styles.clientes}>
           <Clientes />
         </div>
-      
 
-      <div className={styles.painel}>
+      {/* <div className={styles.painel}>
         <img src="img/ativo_19.png" alt="" />
-      </div>
+      </div> */}
     </div>
   </div>
   )

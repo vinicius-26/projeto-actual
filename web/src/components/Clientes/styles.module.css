@@ -9,7 +9,7 @@
 
 .clientes h3{
   color: #224D88;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .gridImages{
@@ -80,10 +80,125 @@
   background: rgb(242,243,245);
   background: linear-gradient(180deg, rgba(242,243,245,1) 50%, rgba(255,255,255,1) 100%);
   width: 100%;
+  height: 40px;
 }
 
 .gradientInvert{
   width: 100%;
   background: rgb(242,243,245);
   background: linear-gradient(0deg, rgba(242,243,245,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+@media(max-width: 1400px){
+  .gridImages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gridImages img{
+    margin: 0;
+    padding: 0;
+    width: 12rem;
+  }
+  .cliente1 img{
+    width: 10rem;
+  }
+  .cliente2 img{
+    width: 10rem;
+  }
+}
+
+@media(max-width: 1000px){
+  .gridImages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gridImages img{
+    margin: 0;
+    padding: 0;
+    width: 12rem;
+  }
+  .cliente1 img{
+    width: 10rem;
+  }
+  .cliente2 img{
+    width: 10rem;
+  }
+}
+
+@media(max-width: 860px){
+  .gridImages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gridImages img{
+    margin: 0;
+    padding: 0;
+    width: 12rem;
+  }
+  .cliente1 img{
+    width: 10rem;
+  }
+  .cliente2 img{
+    width: 10rem;
+  }
+}
+
+@media(max-width: 600px){
+  .gridImages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gridImages img{
+    margin: 0;
+    padding: 0;
+    width: 12rem;
+  }
+  .cliente1 img{
+    width: 10rem;
+  }
+  .cliente2 img{
+    width: 10rem;
+  }
+}
+
+@media(max-width: 400px){
+  .gridImages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gridImages img{
+    margin: 0;
+    padding: 0;
+    width: 12rem;
+    margin-top: 1rem;
+  }
+  .cliente1 img{
+    width: 10rem;
+  }
+  .cliente2{
+    margin: 0;
+  }
+  .cliente2 img{
+    width: 10rem;
+  }
 }
