@@ -47,12 +47,21 @@
   width: 85%;
   height: 2px;
   background: #224D88;
-  margin-left: 8rem;
+margin: 2rem;
 }
 
 .painel{
   width: 100%;
 }
+
+.cardsInicio{
+  display: flex;
+  flex-direction:row ; 
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;   
+} 
+
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0;}
@@ -87,18 +96,6 @@
   } 
  }
 
- @media(max-width: 2000px){
-  
-.cardsInicio{
-  display: flex;
-  flex-direction:row ; 
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 1.5rem;   
-} 
-
- }
-
  @media(max-width: 1200px){
   
   .cardsInicio{
@@ -120,21 +117,14 @@
     flex-direction: column;
   }
 
-  .dev{
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .Inov{
     display: flex;
     flex-direction: column;
   }
 
-  .txt{
-    display: flex;
-    flex-direction: column;
-  }
-
+ 
   .clientes{
     display:flex;
     flex-direction: column;

@@ -1,9 +1,5 @@
 import Card from '../components/Card'
-import Image from 'next/image' 
-
 import styles from './Home.module.css'
-
-import { NavBar } from '../components/NavBar/NavBar';
 import Sobre from '../components/Sobre';
 import Desenvolvimento from '../components/Desenvolvimento';
 import Clientes from '../components/Clientes';
@@ -15,7 +11,6 @@ const Home: React.FC = () => {
     
   <div className={styles.container}>
     <div className={styles.content}>
-
       
       <div className={styles.fadeIn}>
         <div className={styles.sliderContent}>

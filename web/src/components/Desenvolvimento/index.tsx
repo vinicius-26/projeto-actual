@@ -4,8 +4,8 @@ import styles from './styles.module.css'
 const Desenvolvimento: React.FC = () => {
     return(
       <div className={styles.container}>
-        <div  className={styles.dev}>
           <h3>Desenvolvimento de Software e Aplicativos</h3>
+        <div  className={styles.dev}>       
           
           <div className={styles.imgDev}>
             <img src="img/ativo_7.png" alt="" />
