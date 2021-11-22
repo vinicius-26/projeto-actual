@@ -2,23 +2,31 @@
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding-left: 1rem;
-}
-
-.dev{
-  width: 100%;
+    margin-top: 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
-.dev h3{
+.container h3{
   color: #224D88;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
+
+
+.dev{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+
+}
+
 
 .imgDev img{
   width: 100%;
@@ -33,7 +41,7 @@
   justify-content: center;
   text-align: center;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-  margin-left: 2rem;
+
 }
 
 .block h2{
@@ -54,7 +62,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 10rem;
+  padding-left: 3rem;
 }
 
 .Inov h3{
@@ -63,7 +71,7 @@
 }
 
 .Inov p{
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   text-align: justify;
   color: #747780;
   margin-top: 0.6rem;
@@ -110,7 +118,7 @@
     width: 80%;
   }
   .imgConnected img{
-    width: 8rem;
+    width: 6rem;
   }
   .block{
     margin-top: 2rem;
@@ -129,7 +137,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 0.6rem;
+   padding: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -165,58 +173,7 @@
   .container h3{
     font-size: 1.6rem;
   }
-}
 
-@media(max-width: 600px){
-  .dev{
-    padding-left: 1rem;
-    justify-content: center;
-  }
-  .dev h3{
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1.2rem;
-    padding-left: 0.5rem
-  }
-  .imgDev{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .imgDev img{
-    width: 100%;
-  }
-  .imgConnected img{
-    width: 4rem;
-  }
-  .block{
-    margin-top: 1rem;
-  }
-  
-  .block h2{
-    font-size: 1.4rem;
-    color: #224D88;
-  }
-  
-  .block p{
-    font-size: 0.6rem;
-    color: var(--background);
-  }
-  .Inov{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 0.6rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .Inov h3{
-    width: 100%;
-  }
-  .Inov p{
-    width: 100%;
-  }
   .imgInov{
     justify-content: center;
     display: flex;
@@ -227,13 +184,18 @@
     width: 80%;
     display: flex;
   }
-  .celular{
-    margin: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .imgConnected img{
+    width: 3rem;
   }
-  .celular img{
-    width: 50%;
+}
+
+@media(max-width: 500px){
+
+  .container h3{
+
+    font-size: 1.2rem;
+
   }
+
 }
