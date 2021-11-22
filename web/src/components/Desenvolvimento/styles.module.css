@@ -63,6 +63,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 3rem;
+  margin-bottom: 2rem;
 }
 
 .Inov h3{
@@ -88,6 +89,20 @@
   padding-left: 2rem;
 }
 
+@media(max-width: 1600px){
+  .Inov h3{
+    font-size: 1.3rem;
+  }
+  
+  .Inov p{
+    font-size: 1rem;
+  }
+  .celular img{
+    width: 45%;
+    padding-left: 2rem;
+    margin-bottom: -4rem;
+  }
+}
 
 @media(max-width: 1400px){
   .Inov{
@@ -100,15 +115,11 @@
 
   .Inov h3{
     font-size: 1.3rem;
-   
   }
   
   .Inov p{
     font-size: 1.1rem;
-  
   }
-
-
 }
 
 @media(max-width: 1200px){
