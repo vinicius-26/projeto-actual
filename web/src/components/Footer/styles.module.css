@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .contatos p{
@@ -41,7 +41,6 @@
   font-size: 1rem;
   text-align: left;
   font-weight: bolder;
-  
 }
 
 .contatos i{
