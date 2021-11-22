@@ -36,39 +36,35 @@ padding-left: 3rem;
 .imgAbout img{
   width: 38rem;
   padding: 3rem;
-  /* margin-left: 5rem; */
-  /* margin-right: 1rem; */
 }
 
 
-@media(max-width: 1400px){
+@media(max-width: 1600px){
 
   .about{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .about h2{
-    font-size: 3rem;
- 
+    font-size: 2rem;
   }
   
   .about h3{
-    font-size: 1.5rem;
-
+    font-size: 1.2rem;
   }
   
   .about span{
     font-size: 1.3rem;  
- 
   }
   
   .about p{
     font-size: 1.1rem;
-
   }
-
-
+  .imgAbout img{
+    margin-top: 8rem;
+    margin-left: 4rem;
+  }
 }
 
 @media(max-width: 1100px){
