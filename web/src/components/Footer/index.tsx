@@ -1,10 +1,5 @@
 import React from 'react';
 import styles from './styles.module.css'
-import Link from 'next/link';
-import { useState } from 'react';
-import Image from 'next/image'
-
-import imgWhatsapp from '../../public/img/whatsapp.png'
 
 
 const Footer: React.FC = () => {
@@ -15,19 +10,19 @@ const Footer: React.FC = () => {
         <div className={styles.contatos}> 
           <table>
             <tr>
-              <td><i className="fa fa-map-marker fa-lg" aria-hidden="true"></i></td>
-              <td><p>520, Rachid Elias Sobrinho </p>
-              <span>Esp. Sto. do Pinhal, SP</span>
+              <td><i className="fa fa-map-marker fa-sm" aria-hidden="true"></i></td>
+              <td><p>520, Rachid Elias Sobrinho - Esp. Sto. do Pinhal, SP </p>
+              {/* <span>Esp. Sto. do Pinhal, SP</span> */}
               </td>
             </tr>
 
             <tr>
-              <td><i className="fa fa-phone fa-lg" aria-hidden="true"></i></td>
+              <td><i className="fa fa-phone fa-sm"  aria-hidden="true"></i></td>
               <td><p>(19) 3661 4941</p></td>
             </tr>
 
             <tr>
-              <td><i className="fa fa-envelope fa-lg" aria-hidden="true"></i></td>
+              <td><i className="fa fa-envelope fa-sm" aria-hidden="true"></i></td>
               <td><p>actual@gmail.com</p></td>
             </tr>
           </table>
