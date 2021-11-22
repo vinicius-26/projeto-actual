@@ -44,276 +44,18 @@
   
 }
 
-.about{
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-  background: var(--background-white);
-  padding: 2rem 0 0 10rem;
-  height: 48rem;
-}
-
-.about h2{
-  font-size: 2rem;
-  color: #224D88;
-  margin-top: 2rem;
-}
-
-.about h3{
-  font-size: 1.2rem;
-  color: #224D88;
-}
-
-.about span{
-  font-size: 1rem;  
-  color: var(--background);
-}
-
-.about p{
-  font-size: 0.9rem;
-  text-align: justify;
-  color: #747780;
-  margin-top: 0.6rem;
-}
-.imgAbout img{
-  width: 38rem;
-  padding: 3rem;
-  /* margin-left: 5rem; */
-  /* margin-right: 1rem; */
-}
-
-.imgBack{
-  display: flex;
-  width: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  height: 5rem;
-}
-
-.imgBack img{
-  width: 10rem;
-}
-
 .footer{
   width: 100%;
   display: block;
 }
 
-.dev{
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 2rem;
-  flex-wrap: wrap;
 
-}
-
-.dev h3{
-  color: #224D88;
-  margin-top: 0.2rem;
-  margin-bottom: 1.2rem;
-}
-
-.imgDev img{
-  width: 100%;
-}
-
-.block{
-  border-bottom: 3px solid #224D88;
-  padding: 1rem;
-  display: block;
-  border-radius: 1rem;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-left: 2rem;
-  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-}
-
-.block h2{
-  font-size: 2rem;
-  color: #224D88;
-}
-
-.block p{
-  font-size: 1rem;
-  color: var(--background);
-}
-
-.imgConnected img{
-  width: 6rem;
-}
 
 .linha{
   width: 85%;
   height: 2px;
   background: #224D88;
   margin-left: 8rem;
-}
-
-.Inov{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 60rem 30rem;
-  /* margin-left: 10rem; */
-}
-
-.Inov h3{
-  font-size: 1.4rem;
-  color: #224D88;
-}
-
-.Inov p{
-  font-size: 0.9rem;
-  text-align: justify;
-  color: #747780;
-  margin-top: 0.6rem;
-  width: 60%;
-}
-
-.imgInov img{
-  width: 70%;
-  margin: 2rem;
-}
-
-.empresa{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(0deg, var(--background) 50%, var(--background-white) 50%);
-}
-
-.celular img{
-  width: 60%;
-  margin-bottom: -2rem;
-  padding-top: 2rem;
-  margin-right: 2rem;
-}
-
-.empresa img{
-  width: 80%;
-}
-
-.txtRemoto{
-  padding-top: 2rem;
-  justify-content: left;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  background: var(--background);
-  color: white;
-  align-items: center;
-  /* padding-left: 10rem;
-  padding-bottom: 2rem; */
-  border-bottom: 6px solid #224D88;
-}
-
-.txtRemoto p{
-  font-size: 1rem;
-  text-align: justify;
-  color: #d0d0d0;
-}
-
-.txtRemoto img{
-  width: 2rem;
-  height: 2rem;
-  margin-right: 1rem;
-}
-
-.clientes{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-
-
-.clientes h3{
-  color: #224D88;
-  margin-top: 1rem;
-}
-
-.gridImages{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  padding: 1rem;
-}
-
-.cliente1 img{
-  width: 10rem;
-  border-radius: 1000px;
-  margin-right: 2rem;
-}
-
-.cliente2{
-  border-radius: 100px;
-  padding: 1rem;
-  background: rgb(216, 40, 40);
-  align-items: center;
-  justify-content: center;
-  margin-right: 2rem;
-}
-
-.cliente2 img{
-  width: 10rem;
-}
-
-.cliente3 img{
-  width: 15rem;
-  margin-right: 2rem;
-}
-
-.cliente4 img{
-  width: 15rem;
-  border-radius: 1000px;
-  margin-right: 2rem;
-}
-
-.cliente5 img{
-  width: 15rem;
-  border-radius: 1000px;
-  margin-right: 2rem;
-}
-
-.cliente6 img{
-  width: 15rem;
-  border-radius: 1000px;
-  margin-right: 2rem;
-}
-
-.cliente7 img{
-  width: 15rem;
-  border-radius: 1000px;
-  margin-right: 2rem;
-}
-
-.cliente8 img{
-  width: 10rem;
-  border-radius: 1000px;
-  margin-right: 2rem;
-}
-
-.gradient{
-  background: rgb(242,243,245);
-  background: linear-gradient(180deg, rgba(242,243,245,1) 50%, rgba(255,255,255,1) 100%);
-  width: 100%;
-}
-
-.gradientInvert{
-  width: 100%;
-  background: rgb(242,243,245);
-  background: linear-gradient(0deg, rgba(242,243,245,1) 50%, rgba(255,255,255,1) 100%);
 }
 
 .painel{
@@ -357,58 +99,45 @@
   .row {
     display: flex;
     flex-direction: column;
-    
   }
 
   .about{
- 
-      display: flex;
-      flex-direction: column;
-      
- 
-  }
-
-  .txt{
-
     display: flex;
     flex-direction: column;
   }
 
+  .txt{
+    display: flex;
+    flex-direction: column;
+  }
 
   .dev{
     display: flex;
     flex-direction: column;
-
-
   }
 
   .Inov{
-
     display: flex;
     flex-direction: column;
   }
 
   .txt{
-
     display: flex;
     flex-direction: column;
   }
 
   .clientes{
-
     display:flex;
-     flex-direction: column;
+    flex-direction: column;
   }
 
   .clientes img{
-
     margin-top: 3rem;
   }
 
   .gridImages{
-
     display:flex;
-     flex-direction: column;
+    flex-direction: column;
   }
  }
 

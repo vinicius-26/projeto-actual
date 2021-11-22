@@ -1,0 +1,77 @@
+.dev{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+
+}
+
+.dev h3{
+  color: #224D88;
+  margin-top: 0.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.imgDev img{
+  width: 100%;
+}
+
+.block{
+  border-bottom: 3px solid #224D88;
+  padding: 1rem;
+  display: block;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2rem;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+
+.block h2{
+  font-size: 2rem;
+  color: #224D88;
+}
+
+.block p{
+  font-size: 1rem;
+  color: var(--background);
+}
+
+.imgConnected img{
+  width: 6rem;
+}
+
+.Inov{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60rem 30rem;
+  /* margin-left: 10rem; */
+}
+
+.Inov h3{
+  font-size: 1.4rem;
+  color: #224D88;
+}
+
+.Inov p{
+  font-size: 0.9rem;
+  text-align: justify;
+  color: #747780;
+  margin-top: 0.6rem;
+  width: 60%;
+}
+
+.imgInov img{
+  width: 70%;
+  margin: 2rem;
+}
+
+.celular img{
+  width: 60%;
+  margin-bottom: -2rem;
+  padding-top: 2rem;
+  margin-right: 2rem;
+}

@@ -1,0 +1,89 @@
+.clientes{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.clientes h3{
+  color: #224D88;
+  margin-top: 1rem;
+}
+
+.gridImages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 1rem;
+}
+
+.cliente1 img{
+  width: 10rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.cliente2{
+  border-radius: 100px;
+  padding: 1rem;
+  background: rgb(216, 40, 40);
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.cliente2 img{
+  width: 10rem;
+}
+
+.cliente3 img{
+  width: 15rem;
+  margin-right: 2rem;
+}
+
+.cliente4 img{
+  width: 15rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.cliente5 img{
+  width: 15rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.cliente6 img{
+  width: 15rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.cliente7 img{
+  width: 15rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.cliente8 img{
+  width: 10rem;
+  border-radius: 1000px;
+  margin-right: 2rem;
+}
+
+.gradient{
+  background: rgb(242,243,245);
+  background: linear-gradient(180deg, rgba(242,243,245,1) 50%, rgba(255,255,255,1) 100%);
+  width: 100%;
+}
+
+.gradientInvert{
+  width: 100%;
+  background: rgb(242,243,245);
+  background: linear-gradient(0deg, rgba(242,243,245,1) 50%, rgba(255,255,255,1) 100%);
+}
