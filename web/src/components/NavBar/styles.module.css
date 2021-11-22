@@ -73,7 +73,8 @@
 .menu li {
   margin-left: 1.2rem;
   margin-right: 1rem;
-  list-style-type: none
+  list-style-type: none;
+  color: var(--background)
 }
 
 .menu a {
