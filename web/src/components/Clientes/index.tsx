@@ -14,11 +14,11 @@ const Clientes: React.FC = () => {
           </div>
 
           <div className={styles.cliente2}>
-            <img src="img/svg/cafeRaphaelli.svg" alt="" />
+            <img src="img/cafeRaphaelli.png" alt="" />
           </div>
 
           <div className={styles.cliente3}>
-            <a href="https://www.carmomaq.com.br/" target="_blank"> <img src="img/svg/logo-carmomaq-01.svg" alt="" /></a>
+            <a href="https://www.carmomaq.com.br/" target="_blank"> <img src="img/logo-carmomaq-01.png" alt="" /></a>
           </div>
 
           <div className={styles.cliente4}>

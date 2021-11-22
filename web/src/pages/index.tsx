@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <div className={styles.fadeIn}>
         <div className={styles.sliderContent}>
           <div className={styles.img_1}>
-            <img src="img/svg/ativo_2.svg" alt="" />
+            <img src="img/ativo_2.png" alt="" />
           </div>
 
           <div className={styles.img_2}>
