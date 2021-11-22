@@ -33,13 +33,6 @@
   z-index: 0;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  
-}
 
 .footer{
   width: 100%;
@@ -94,12 +87,29 @@
   } 
  }
 
- @media(max-width: 900px){
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
+ @media(max-width: 2000px){
+  
+.cardsInicio{
+  display: flex;
+  flex-direction:row ; 
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;   
+} 
 
+ }
+
+ @media(max-width: 1200px){
+  
+  .cardsInicio{
+    display: flex;
+    flex-direction:column ; 
+     } 
+  
+  
+   }
+  
+  
   .about{
     display: flex;
     flex-direction: column;
@@ -138,6 +148,6 @@
     display:flex;
     flex-direction: column;
   }
- }
+ 
 
 
