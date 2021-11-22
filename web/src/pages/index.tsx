@@ -32,7 +32,7 @@ const Home: React.FC = () => {
 
         {/* Serviços */} 
 
-        <div id="servicos" className={styles.row}>
+        <div id="servicos" className={styles.cardsInicio}>
 
           <Card 
             title="Redes Industriais"
