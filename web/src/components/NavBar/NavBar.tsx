@@ -21,7 +21,6 @@ const NavBar: React.FC<HeaderProps> = () => {
   const ref = useRef(null)
   const router = useRouter();
 
-
   function handleClickOutside(){
     if(ref.current){
       setDropdown({display: 'none'});

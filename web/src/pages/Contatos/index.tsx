@@ -82,11 +82,7 @@ const Contatos = () => {
                 </tr>
               </table>
               
-              <iframe className={styles.mapa} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.698387172128!2d-46.75007568504746!3d-22.17555018538852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9adffffe8bb61%3A0x5d6ec56d39769b31!2sR.%20Rachid%20Elias%20Sobrinho%2C%20520%20-%20Jardim%20Monte%20Alegre%2C%20Esp%C3%ADrito%20Santo%20do%20Pinhal%20-%20SP%2C%2013990-000!5e0!3m2!1spt-BR!2sbr!4v1637252537747!5m2!1spt-BR!2sbr" width={550} height={400} loading="lazy"></iframe>   
-
-              
-
-              
+              <iframe className={styles.mapa} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.698387172128!2d-46.75007568504746!3d-22.17555018538852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9adffffe8bb61%3A0x5d6ec56d39769b31!2sR.%20Rachid%20Elias%20Sobrinho%2C%20520%20-%20Jardim%20Monte%20Alegre%2C%20Esp%C3%ADrito%20Santo%20do%20Pinhal%20-%20SP%2C%2013990-000!5e0!3m2!1spt-BR!2sbr!4v1637252537747!5m2!1spt-BR!2sbr" width="100%" height="100%" loading="lazy"></iframe>  
         </div>
       </div>     
     </div>
