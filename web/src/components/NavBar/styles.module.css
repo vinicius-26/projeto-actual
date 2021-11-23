@@ -34,6 +34,7 @@
   width: 88%;
   height: 80px;
   max-height: 100%;
+  font-size: 1rem;
 }
 
 .logo{
@@ -93,12 +94,16 @@ align-items: baseline;
 
 .menu a {
   display: inline-block;
-  padding: 12px;
 
   font-size: 1.2rem;
   font-weight: 400;
 
   transition: all 0.1s;
+  padding: 0.5rem;
+}
+
+.menu{
+  padding-left: 1rem;
 }
 
 .menu a:hover {
@@ -108,19 +113,32 @@ align-items: baseline;
   color: var(--background-dark);
 }
 
+@media (max-width: 1400px){
+  .menu li{
+    margin: 0 auto;
+  }
+  .menu a {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+}
+
+
 @media (max-width: 1080px){
   .menu li{
-      margin: 0 auto;
+    margin: 0 auto;
+  }
+  .menu a {
+    font-size: 1rem;
+    margin-left: 1rem;
   }
 }
 
 
 @media (max-width: 880px) {
   .conteudo {
-      height: 10rem;
+    height: 10rem;
     justify-content: space-around;
-
-
   }
 
   .menu div button i { 
@@ -142,6 +160,9 @@ align-items: baseline;
     height: 100%;
 
     
+  }
+  .menu a {
+    font-size: 0.8rem;
   }
 
   .logo img{
