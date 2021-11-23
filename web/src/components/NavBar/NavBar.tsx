@@ -22,16 +22,6 @@ const NavBar: React.FC<HeaderProps> = () => {
   const router = useRouter();
 
 
-  const { innerWidth: width, innerHeight: height } = window;
-
-  function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window;
-    return {
-      width,
-      height
-    };
-  }
-
   function handleClickOutside(){
     if(ref.current){
       setDropdown({display: 'none'});
@@ -70,12 +60,13 @@ const NavBar: React.FC<HeaderProps> = () => {
     <div className={styles.container}>
       <div className={styles.conteudo}>
         <div className={styles.logo}>
-          <img src="img/svg/logo_preta.svg" alt="" />
+          <img src="img/logo_preta.png" alt="" />
+          <h2>Actual </h2>
         </div>
         <nav className={styles.menu}>
           <div>
             <button ref={ref} onClick={handleDisplayDropdown} className={styles.dropdown}>
-              <hr/><hr/><hr/>
+            <i className="fa fa-bars" aria-hidden="true"></i>
             </button>
             <ul style={dropdown}>
               <li><Link href="/">Home</Link></li>
