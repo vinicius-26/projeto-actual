@@ -84,13 +84,33 @@
   margin: 1.6rem;
 }
 
-.celular img{
-  width: 40%;
-  padding-left: 2rem;
+.celular{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+}
+.grid2{
+
+  display: flex;
+  justify-content: center;
+
 }
 
+/* .celular{
 
-.
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+} */
+/* 
+.celular img{
+  width: 80%;
+
+} */
+
+
 
 @media(max-width: 1600px){
   .Inov h3{
@@ -101,7 +121,8 @@
     font-size: 1rem;
   }
   .celular img{
-    width: 45%;
+    width: 65%;
+   
     padding-left: 2rem;
     margin-bottom: -4rem;
   }
