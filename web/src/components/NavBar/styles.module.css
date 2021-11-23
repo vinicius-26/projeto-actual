@@ -29,7 +29,7 @@
 .conteudo {
   display: flex;
  align-items: center;
-    justify-content: space-between;
+    justify-content: left;
 /* flex-wrap: wrap; */
   width: 88%;
   height: 80px;
@@ -81,6 +81,7 @@ align-items: baseline;
 
 .menu div ul{
   display: flex;
+  margin: auto;
 }
 
 .menu li {
@@ -112,7 +113,6 @@ align-items: baseline;
       margin: 0 auto;
   }
 }
-
 
 
 @media (max-width: 880px) {

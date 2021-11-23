@@ -4,9 +4,9 @@ import styles from './styles.module.css'
 const Remoto: React.FC = () => {
     return(
       <div className={styles.container}>
-        <div className={styles.empresa}>
+        {/* <div className={styles.empresa}>
           <img src="img/ativo_10.png" alt="" />
-        </div>
+        </div> */}
 
         <div className={styles.txtRemoto}>
           <img src="img/diamond.png" alt="" />
