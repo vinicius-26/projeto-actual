@@ -5,7 +5,7 @@ const Remoto: React.FC = () => {
     return(
       <div className={styles.container}>
         <div className={styles.empresa}>
-          {/* <img src="img/ativo_10.png" alt="" /> */}
+          <img src="img/ativo_10.png" alt="" />
         </div>
 
         <div className={styles.txtRemoto}>
